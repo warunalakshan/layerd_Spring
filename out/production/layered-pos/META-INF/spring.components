@@ -1,0 +1,14 @@
+lk.ijse.dep.pos.AppConfig=org.springframework.stereotype.Component
+lk.ijse.dep.pos.business.custom.impl.CustomerBOImpl=org.springframework.stereotype.Component
+lk.ijse.dep.pos.business.custom.impl.ItemBOImpl=org.springframework.stereotype.Component
+lk.ijse.dep.pos.business.custom.impl.OrderBOImpl=org.springframework.stereotype.Component
+lk.ijse.dep.pos.dao.custom.impl.CustomerDAOImpl=org.springframework.stereotype.Component
+lk.ijse.dep.pos.dao.custom.impl.ItemDAOImpl=org.springframework.stereotype.Component
+lk.ijse.dep.pos.dao.custom.impl.OrderDAOImpl=org.springframework.stereotype.Component
+lk.ijse.dep.pos.dao.custom.impl.OrderDetailDAOImpl=org.springframework.stereotype.Component
+lk.ijse.dep.pos.dao.custom.impl.QueryDAOImpl=org.springframework.stereotype.Component
+lk.ijse.dep.pos.entity.Customer=javax.persistence.Entity
+lk.ijse.dep.pos.entity.Item=javax.persistence.Entity
+lk.ijse.dep.pos.entity.Order=javax.persistence.Entity,javax.persistence.Table
+lk.ijse.dep.pos.entity.OrderDetail=javax.persistence.Entity
+lk.ijse.dep.pos.entity.OrderDetailPK=javax.persistence.Embeddable
